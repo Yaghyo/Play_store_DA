@@ -1,0 +1,22 @@
+# Ignore Python/Environment files
+__pycache__/
+*.pyc
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Virtual Environment folders
+*venv*
+.venv
+env/
+
+# Ignore Conda-related files (important for your setup)
+.conda
+.ipynb_checkpoints
+
+# Ignore large data files that may change often (optional, but good practice)
+# If 'google_cleaned.csv' is too big, you might ignore it, but we'll include it for now.
+
+# Keep the requirements.txt file so others can rebuild your environment
+!requirements.txt
